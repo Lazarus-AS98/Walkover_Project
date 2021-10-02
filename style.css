@@ -16,7 +16,7 @@ h1 {
 }
 h2 {
     font-weight: 300;
-    color: rgb(171, 206, 218);
+    color: rgba(209, 240, 230, 0.863);
     font-size: 55px;
     text-transform: uppercase;
     text-align: center;
@@ -93,13 +93,14 @@ header nav ul li a {
     margin-right: 20px;
 }
 
+
 #hero-image {
     height: 580px;
     padding-top: 1px;
     background: #e8eced url('images/614139.jpg') no-repeat center;
 }
 #hero-image h2 {
-    margin: 180px 0 40px 0;
+    margin: 140px 0 60px 0;
 }
 .button-1 {
     display: block;
@@ -116,6 +117,13 @@ header nav ul li a {
 .button-1:hover {
     background-color: #02b8dd;
     color: #fff;
+}
+.foot_wrapper {
+    margin: 0 auto;
+    padding: 20px 20%;
+    width: auto;
+    background-color: #ecf8ffd0;
+    
 }
 
 #features ul {
@@ -151,7 +159,7 @@ header nav ul li a {
     padding: 0 0 20px 0;
 }
 #primary-content a img {
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 #secondary-content {
@@ -207,3 +215,10 @@ article h4 {
 }
 
 
+@media (max-width: 768px) {
+    .wrapper{
+        width: 60%;
+    }
+
+ }
+ 
